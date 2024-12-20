@@ -1,0 +1,17 @@
+{
+  "name": "habit-tracker-with-analytics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:app": "cd app && npm start",
+    "start:backend": "cd backend && npm start",
+    "dev": "concurrently \"npm run start:app\" \"npm run start:backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

@@ -1,0 +1,23 @@
+# Node modules for React Native (App) and Backend
+node_modules
+/app/node_modules/
+/backend/node_modules/
+
+# Expo specific
+/app/.expo/
+
+# React Native / Expo build files
+/app/build/
+# React Native / Expo metro bundler cache
+/app/.expo/*
+
+# Backend: environment files (e.g., API keys, database creds)
+*.env
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Miscellaneous
+npm-debug.log
+yarn-error.log
