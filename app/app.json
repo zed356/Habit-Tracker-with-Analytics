@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Habit Tracket with Analytics",
-    "slug": "habit-tracker-with-analytics",
+    "name": "app",
+    "slug": "app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "habit-tracker-with-analytics",
+    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ztamoa.app"
     },
     "web": {
       "bundler": "metro",
